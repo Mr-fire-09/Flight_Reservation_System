@@ -41,10 +41,10 @@ public class Main {
     }
 
     private static void seedFlights() {
-        flights.add(new Flight("AA123", "New York", "Los Angeles", 300.00, 50));
-        flights.add(new Flight("DL456", "Chicago", "Miami", 250.00, 30));
-        flights.add(new Flight("UA789", "San Francisco", "Seattle", 200.00, 20));
-        flights.add(new Flight("SW101", "Boston", "Dallas", 350.00, 15));
+        flights.add(new Flight("AA123", "DELHI", "BANGLURU", 30000.00, 50));
+        flights.add(new Flight("AA124", "BHOPAL", "MUMBAI", 25000.00, 30));
+        flights.add(new Flight("AA125", "NAGPUR ", "PUNE ", 20000.00, 20));
+        flights.add(new Flight("AA126", "PUNE ", "BHOPAL", 35000.00, 15));
     }
 
     private static void showAvailableFlights() {
